@@ -10,6 +10,7 @@ return require('packer').startup(function(use)
   use 'kylechui/nvim-surround'
   use 'akinsho/bufferline.nvim'
   use 'ggandor/leap.nvim'
+  use 'nvim-treesitter/nvim-treesitter'
 
 end)
 

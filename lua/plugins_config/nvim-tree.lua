@@ -1,7 +1,7 @@
 require("nvim-tree").setup{
   open_on_setup = true,
   open_on_setup_file = true,
-  open_on_tab = true
+  open_on_tab = true 
 }
 
 vim.api.nvim_set_keymap('n', '<C-n>', ':NvimTreeToggle<CR>', {}) 
