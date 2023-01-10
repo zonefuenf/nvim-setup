@@ -4,8 +4,8 @@ return require('packer').startup(function(use)
 	use 'wbthomason/packer.nvim'
 
 	use 'tanvirtin/monokai.nvim'
-	use 'kyazdani42/nvim-web-devicons'
-	use 'kyazdani42/nvim-tree.lua'
+	use 'nvim-tree/nvim-web-devicons'
+	use 'nvim-tree/nvim-tree.lua'
 	use 'nvim-lualine/lualine.nvim'
   use 'kylechui/nvim-surround'
   use 'akinsho/bufferline.nvim'
